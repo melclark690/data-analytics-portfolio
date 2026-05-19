@@ -55,10 +55,12 @@ Before reproducing this dashboard, ensure you have the following requirements me
 
 ## 🤖 Part 3: AI-Assisted Workflow (GenAI Integration)
 
-This project leveraged Generative AI (**ChatGPT/Gemini**) to optimize efficiency. Below are the exact prompting frameworks used:
+This project used Generative AI to accelerate data analysis and refine technical documentation structure. Below are the specific prompting workflows utilized:
 
-### Data Cleaning Prompt
-> *"Act as a data analyst. I have a retail CSV file where the date column is formatted as text (DD-MM-YYYY). Provide a step-by-step method to convert this to a standard date format inside Tableau Public without losing data integrity."*
+### 1. Business Logic Engineering (Google Gemini)
+Used to extract core executive insights from raw dataset trend behaviors:
+> *"I have built a Tableau line chart using the Sample Superstore dataset showing Monthly Sales Trends broken down by Category (Technology, Furniture, Office Supplies). I noticed that Technology spikes every November, Furniture drops in January, and Tech has the highest overall margins. Act as a data analyst and give me 3 professional, bulleted business insights explaining why these trends matter to an e-commerce executive."*
 
-### Documentation Editing Prompt
-> *"Act as a professional technical writer. Review the following step-by-step user instructions for active voice, clarity, and adherence to the Google Technical Writing Style Guide. Ensure sentences are punchy and under 15 words."*
+### 2. Editorial Optimization (ChatGPT)
+Used to transform raw business insights into clear, concise documentation that meets enterprise style criteria:
+> *"Act as a senior technical writer. Rewrite these data insights to strictly adhere to the Google Technical Writing Style Guide. Make the sentences punchy, use the active voice, keep them under 15 words per bullet point, and format them perfectly in Markdown for a GitHub README file."*
