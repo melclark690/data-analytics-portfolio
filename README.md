@@ -8,7 +8,7 @@ This project analyzes a public retail dataset to uncover key consumer shopping t
 ## 📊 Part 1: The Data Analysis
 
 ### 1. Data Source & Preparation
-* **Dataset Used:** [Insert link to your Kaggle or Data.gov dataset here, e.g., Global Retail Sales 2025]
+* **Dataset Used:** [Kaggle Sample Superstore Dataset](https://www.kaggle.com/datasets/naveenkumar20bps1137/sample-superstore)
 * **Size:** [e.g., 50,000 rows, 12 columns]
 * **Key Variables:** Order Date, Category, Sales, Profit, Region, Customer Segment.
 
@@ -19,7 +19,7 @@ After cleaning and analyzing the data, the three primary findings were:
 3. **High-Value Market:** Technology sales in the West region yield the highest profit margins (42%).
 
 ### 3. Tableau Dashboard Link
-👉 **[View the Interactive Tableau Dashboard Here](Link to your Tableau Public profile)**
+👉 **[View the Interactive Tableau Dashboard Here](https://public.tableau.com/authoring/E-CommerceBusinessPerformanceDashboard/Dashboard1#1)**
 
 ---
 
