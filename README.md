@@ -26,24 +26,25 @@ After cleaning and analyzing the data, the three primary findings were:
 ## ✍️ Part 2: Technical Deployment Guide
 
 ### Prerequisites
-Before reproducing this dashboard, ensure you have the following software installed:
-* [Tableau Public Desktop Application](https://tableau.com) (Free)
-* Access to the raw CSV dataset hosted in this repository.
+Before reproducing this dashboard, ensure you have the following requirements met:
+* A modern web browser (Google Chrome, Microsoft Edge, or Safari).
+* A free [Tableau Public Profile Account](https://tableau.com).
+* The downloaded `SampleSuperstore.csv` dataset hosted in this repository.
 
 ### Step-by-Step Instructions
 
-#### Step 1: Connect and Clean the Data
-1. Open Tableau Public Desktop.
-2. Under **Connect**, click **Text File** and select the downloaded CSV dataset.
-3. Navigate to the **Data Source** tab.
-4. Locate the `Order Date` column, right-click, and change the data type to **Date**.
-5. Filter out all rows containing null values in the `Profit` column.
+#### Step 1: Upload Data to Tableau Web Authoring
+1. Log into your account on the [Tableau Public Homepage](https://tableau.com).
+2. Click **Create** in the top navigation menu, then select **Web Authoring**.
+3. Drag and drop your downloaded `SampleSuperstore.csv` file into the upload window.
+4. Click the blue **Sheet 1** button in the bottom right corner to open your workspace.
 
-#### Step 2: Build the Sales Trend Chart
-1. Open a new Worksheet and name it `Sales Over Time`.
-2. Drag `Order Date` to the **Columns** shelf and change the view to **Month**.
-3. Drag `Sales` to the **Rows** shelf.
-4. Change the mark type from **Automatic** to **Line** to display the monthly trend.
+#### Step 2: Build the Category Sales Trend Chart
+1. Locate the **Data Pane** on the left side of the screen.
+2. Drag the `Order Date` column and drop it directly onto the **Columns** shelf at the top.
+3. Click the downward arrow on the `YEAR(Order Date)` pill and select **Month** (continuous format).
+4. Drag the `Sales` column from the Data Pane and drop it onto the **Rows** shelf.
+5. Drag the `Category` column and drop it onto the **Color** square inside the Marks card.
 
 #### Step 3: Publish the Dashboard
 1. Select **File** > **Save to Tableau Public As...**
