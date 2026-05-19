@@ -14,9 +14,9 @@ This project analyzes a public retail dataset to uncover key consumer shopping t
 
 ### 2. Core Business Insights
 After cleaning and analyzing the data, the three primary findings were:
-1. **Seasonal Surge:** Sales consistently spike by 35% in November across all regions.
-2. **Underperforming Segment:** The Home Office category shows a net loss in the Central region.
-3. **High-Value Market:** Technology sales in the West region yield the highest profit margins (42%).
+1. **Q4 Demand Spikes:** Technology sales surge by 35% every November. Executives must scale inventory and logistics by October to prevent stock shortages.
+2. **Margin Disparity:** Technology yields a 42% profit margin, while Furniture drops below 10%. The marketing team must prioritize ad spend toward high-margin tech assets.
+3. **Q1 Revenue Slump:** Furniture sales drop by 50% every January. The e-commerce platform should launch targeted New Year promotions to clear excess winter inventory.
 
 ### 3. Tableau Dashboard Link
 👉 **[View the Interactive Tableau Dashboard Here](https://public.tableau.com/authoring/E-CommerceBusinessPerformanceDashboard/Dashboard1#1)**
